@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="540" viewBox="0 0 1440 540">
+  <defs><pattern id="warning" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="28" height="28" fill="#201a1a"/><rect width="10" height="28" fill="#d3ae50"/></pattern></defs>
+  <rect width="1440" height="540" fill="#141213"/><rect width="22" height="540" fill="#79272e"/>
+  <path d="M926 0H1440V540H1148L926 318Z" fill="#23181b"/>
+  <path d="M1167 0H1440V540H1378L1167 329Z" fill="#421c22"/>
+  <text x="82" y="90" fill="#d3ae50" font-family="Arial,sans-serif" font-size="17" letter-spacing="6">INDEPENDENT FAN PROJECT</text>
+  <text x="76" y="220" fill="#eee6e0" font-family="Arial,sans-serif" font-size="80" font-weight="700">CODEX THEME</text>
+  <text x="77" y="340" fill="#e0473d" font-family="Arial,sans-serif" font-size="110" font-weight="800" letter-spacing="3">EVA02</text>
+  <rect x="82" y="390" width="85" height="4" fill="#d3ae50"/>
+  <text x="82" y="443" fill="#bfaaa3" font-family="Arial,sans-serif" font-size="21" letter-spacing="2">WINE RED / WARM GOLD / HANGAR MOTION</text>
+  <text x="1090" y="350" fill="#9b3238" font-family="Arial,sans-serif" font-size="230" font-weight="700">02</text>
+  <rect y="516" width="1440" height="9" fill="url(#warning)"/>
+</svg>

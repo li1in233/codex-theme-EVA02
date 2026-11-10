@@ -1,0 +1,29 @@
+Codex EVA personal theme addon - bundled dependencies and asset credits
+
+Python 3.12.14: Python Software Foundation License Version 2 and included notices.
+  runtime/python/LICENSE.txt
+Playwright 1.64.1: Apache License 2.0.
+  runtime/python/Lib/site-packages/playwright-1.64.1.dist-info/licenses/LICENSE
+Playwright's bundled Node and third-party notices:
+  runtime/python/Lib/site-packages/playwright/driver/LICENSE
+  runtime/python/Lib/site-packages/playwright/driver/package/LICENSE
+  runtime/python/Lib/site-packages/playwright/driver/package/NOTICE
+  runtime/python/Lib/site-packages/playwright/driver/package/ThirdPartyNotices.txt
+greenlet 3.5.6: MIT/PSF terms in greenlet-3.5.6.dist-info/licenses/.
+pyee 14.0.0: MIT terms in pyee-14.0.0.dist-info/licenses/LICENSE.
+typing_extensions 4.16.0: PSF terms in typing_extensions-4.16.0.dist-info/licenses/LICENSE.
+Python extension dependencies retain the extra notices in runtime/python/licenses/.
+Microsoft Visual C++ runtime files are unchanged app-local runtime components.
+
+These licenses apply to their respective software, not to the EVA artwork.
+EVA Heading: modified static subset of Noto Serif SC, weight 900, for EVA 02.
+  Copyright 2017-2023 Adobe. SIL Open Font License 1.1.
+  runtime/python/licenses/EVA-Heading-OFL.txt
+  The complete notice and license are also embedded in the font name metadata
+  inside theme.bundle.js. The font remains under OFL 1.1.
+The public source distribution excludes EVA artwork, film footage, music and speech.
+Private builds must include their own credits.json and all required asset permissions.
+See docs/ASSETS.md in the source repository. MIT covers original project code only.
+
+This fan project is not an official OpenAI, EVANGELION or khara release.
+Official Codex is a separate prerequisite and is not bundled by this source repository.

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EVA02 · Public Theme Preview</title><link rel="icon" href="data:,">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#141213;color:#eee6e0;font:15px/1.65 system-ui,"Microsoft YaHei",sans-serif}button{font:inherit;color:inherit;background:transparent;border:0;cursor:pointer}button:focus-visible{outline:2px solid #d3ae50;outline-offset:2px}.shell{display:grid;grid-template-columns:64px 264px minmax(0,1fr);min-height:100vh}.rail{padding:22px 10px;display:flex;align-items:center;flex-direction:column;gap:22px;background:#421c22}.unit{color:#d3ae50;font-weight:800;font-size:24px}.sidebar{padding:24px 14px;background:#23181b}.wordmark{font-weight:700;font-size:22px;margin-bottom:34px}.section{font-size:11px;letter-spacing:2px;color:#bfaaa3;margin:24px 12px 12px}.project,.row{position:relative;isolation:isolate;width:100%;text-align:left;padding:10px 12px;border-radius:5px;margin:3px 0}.project{color:#d3ae50}.main{min-width:0;display:flex;flex-direction:column}.titlebar{position:relative;height:68px;--height-toolbar:68px;--app-shell-titlebar-height:68px;background:#79272e;padding:0 24px;display:flex;align-items:center}.header{display:flex;width:100%;align-items:center;justify-content:space-between}.actions{display:flex;align-items:center;gap:12px}.actions button{padding:6px 10px}.timeline{padding:58px clamp(24px,6vw,100px);flex:1}.eyebrow{font-size:11px;letter-spacing:3px;color:#d3ae50}h1{font-size:clamp(28px,3vw,44px);line-height:1.2;margin:14px 0 22px}p{max-width:760px;color:#bfaaa3}.surface{background:#2c2023;padding:22px 24px;border:1px solid #593138;border-radius:8px;max-width:760px;margin:30px 0}.swatches{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}.swatches span{border:1px solid #593138;border-radius:4px;display:flex;align-items:center;gap:10px;padding:8px 12px}.swatches i{width:16px;height:16px;border-radius:3px;background:var(--c)}pre{background:#1c171a;padding:20px;overflow:auto;border-radius:6px;color:#eee6e0}.ok{color:#8dbda2}.warn{color:#e4bb69}.composer{border:1px solid #9e3b40;background:#2c2023;border-radius:15px;max-width:760px;margin-top:38px;padding:20px 22px;display:flex;align-items:center;justify-content:space-between}.send{padding:8px 16px;background:#e0473d;border-radius:6px}footer{font-size:12px;color:#bfaaa3;max-width:760px;margin-top:22px}.error{background:#492429;border:1px solid #ef887b;padding:12px;margin-top:20px}#missing[hidden]{display:none}@media(max-width:800px){.shell{grid-template-columns:52px minmax(0,1fr)}.sidebar{display:none}.timeline{padding:28px 20px}.titlebar{padding:0 16px}}
+</style>
+</head>
+<body>
+<div class="shell" data-app-shell-frame data-app-shell-application-menu-bar="true">
+  <nav class="rail" data-app-navigation-rail aria-label="预览导航"><span class="unit">02</span><button aria-label="示例工作台">⌂</button><button aria-label="示例历史">◷</button></nav>
+  <aside class="sidebar" data-app-action-sidebar-scroll>
+    <div class="wordmark">EVA02 <small style="font-size:12px;font-weight:400">/ THEME</small></div>
+    <div class="section">WORKSPACE</div>
+    <button class="project" data-app-action-sidebar-project-row data-app-action-sidebar-project-id="demo">◇　Design Lab</button>
+    <div data-app-action-sidebar-project-list-id="demo">
+      <button class="row" data-app-action-sidebar-thread-row data-app-action-sidebar-thread-active="true">工作台与设计语言</button>
+      <button class="row" data-app-action-sidebar-thread-row data-app-action-sidebar-thread-active="false">机库选择动效</button>
+      <button class="row" data-app-action-sidebar-thread-row data-app-action-sidebar-thread-active="false">自定义资源</button>
+    </div>
+    <div class="section">INTERACTION</div><p style="padding:0 12px;font-size:13px">点击会话观察底板与锁扣。<br>Ctrl + Alt + E 打开动效设置。</p>
+  </aside>
+  <main class="main">
+    <div class="titlebar" data-app-shell-titlebar data-app-shell-header-layout="thread-edge-scroll"><div class="header" data-app-shell-main-titlebar><span>工作台与设计语言</span><div data-app-shell-header-toolbar><div class="actions"><button id="settings" aria-label="打开动效设置">设置</button><button aria-label="预览更多操作">···</button></div></div></div></div>
+    <section class="timeline" data-app-action-timeline-scroll>
+      <div class="eyebrow">INDEPENDENT FAN PROJECT / PUBLIC SOURCE</div>
+      <h1>酒红框架。暖黄警戒。<br>让工作台进入机库。</h1>
+      <p>这是由公开主题源码驱动的独立浏览器预览。所有文字均为示例，不读取真实会话，不连接原生客户端。默认不含人物插画、电影画面、语音或音乐。</p>
+      <div id="missing" class="error">尚未构建主题。请在仓库目录运行 python tools/build_theme.py，然后刷新本页。</div>
+      <div class="swatches"><span><i style="--c:#e0473d"></i>#E0473D</span><span><i style="--c:#d3ae50"></i>#D3AE50</span><span><i style="--c:#9b3238"></i>#9B3238</span><span><i style="--c:#eee6e0"></i>#EEE6E0</span></div>
+      <div class="surface"><strong>交互结构</strong><p>底板 0–360ms 升起，锁扣 360–480ms 合拢，540ms 就位。减少动态效果时保留稳定选中态。</p><div class="ok">✓ 成功状态保留语义</div><div class="warn">△ 关注与警告使用暖黄提示</div></div>
+      <pre><code># Build the theme without private media
+python tools/build_theme.py --motion system</code></pre>
+      <div class="composer"><span>从自己的设计与素材开始。</span><button class="send" type="button">预览按钮</button></div>
+      <footer>Original code: MIT · Font: SIL OFL 1.1 · Independent fan project. This is a synthetic design preview.</footer>
+    </section>
+  </main>
+</div>
+<script src="../dist/theme.bundle.js"></script>
+<script>
+document.querySelector('#missing').hidden=!!window.__evaTheme;
+document.querySelectorAll('[data-app-action-sidebar-thread-row]').forEach(row=>row.addEventListener('click',()=>{document.querySelectorAll('[data-app-action-sidebar-thread-row]').forEach(r=>r.setAttribute('data-app-action-sidebar-thread-active',String(r===row)));}));
+document.querySelector('#settings').addEventListener('click',()=>window.__evaTheme?.settings());
+</script>
+</body></html>

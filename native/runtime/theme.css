@@ -1,0 +1,99 @@
+html[data-eva-theme=r7]{color-scheme:dark!important;
+ --color-surface:#141213!important;--color-surface-secondary:#23181b!important;--color-surface-tertiary:#2c2023!important;--color-surface-card:#2c2023!important;--color-surface-canvas:#141213!important;--color-surface-elevated:#2c2023!important;--color-surface-elevated-secondary:#2c2023!important;
+ --app-color-background-surface:#141213!important;--app-color-background-shell:#141213!important;--app-color-background-surface-under:#23181b!important;--app-color-background-editor-opaque:#2c2023!important;--app-color-background-application-menu:#2c2023!important;--app-color-background-elevated-primary:#2c2023!important;--app-color-background-elevated-secondary:#2c2023!important;--app-color-background-elevated-tertiary-opaque:#23181b!important;--app-color-background-control:#2c2023!important;
+ --color-background-panel:#2c2023!important;--color-background-composer-surface:#2c2023!important;--color-background-composer-action-bar:#2c2023!important;--color-background-control-opaque:#2c2023!important;--color-background-execution-output:#1c171a!important;--color-background-user-message:#2c2023!important;--color-background-user-message-compact:#2c2023!important;--color-background-callout-surface:#2c2023!important;--color-background-page-search:#2c2023!important;
+ --color-background-primary-soft:#392127!important;--color-background-primary-soft-hover:#51262e!important;--color-background-secondary-soft:#392127!important;--color-background-secondary-soft-hover:#51262e!important;--color-background-secondary-solid:#392127!important;--color-background-secondary-solid-hover:#51262e!important;--color-background-primary-ghost-hover:#392127!important;--color-background-secondary-ghost-hover:#392127!important;
+ --color-text:#eee6e0!important;--color-text-primary:#eee6e0!important;--color-text-primary-surface:#eee6e0!important;--color-text-primary-soft:#eee6e0!important;--color-text-primary-ghost:#eee6e0!important;--color-text-primary-ghost-hover:#fff2e9!important;--color-text-primary-outline:#eee6e0!important;--color-text-primary-outline-hover:#fff2e9!important;--color-text-primary-soft-alt:#eee6e0!important;--color-text-secondary-soft:#eee6e0!important;--color-text-secondary-soft-alt:#eee6e0!important;
+ --color-text-secondary:#bfaaa3!important;--color-text-secondary-solid:#bfaaa3!important;--color-text-tertiary:#a88f89!important;--color-text-disabled:#89736d!important;--color-text-secondary-ghost:#bfaaa3!important;--color-text-secondary-outline:#bfaaa3!important;--color-text-secondary-ghost-hover:#eee6e0!important;--color-text-emphasis:#eee6e0!important;--color-text-user-message:#eee6e0!important;--color-text-button-outline:#eee6e0!important;--color-text-execution-output:#eee6e0!important;--color-text-toolbar-action:#bfaaa3!important;
+ --app-color-text-foreground-secondary:#bfaaa3!important;--app-color-text-foreground-tertiary:#a88f89!important;--app-color-text-button-secondary:#eee6e0!important;--app-color-text-button-tertiary:#bfaaa3!important;--app-color-foreground-application-menu:#eee6e0!important;--app-color-icon-secondary:#bfaaa3!important;--app-color-icon-tertiary:#a88f89!important;
+ --color-border:#593138!important;--color-border-subtle:#3f2b30!important;--color-border-strong:#9e3b40!important;--color-border-primary-outline:#593138!important;--color-border-secondary-outline:#593138!important;--color-border-primary-outline-hover:#9e3b40!important;--color-border-secondary-outline-hover:#9e3b40!important;--color-border-button-outline:#593138!important;--app-color-border:#593138!important;--app-color-border-heavy:#9e3b40!important;--app-color-border-light:#3f2b30!important;--app-color-border-focus:#d3ae50!important;
+ --codex-theme-accent-color:#e0473d!important;--codex-theme-accent-icon:#e7806a!important;--codex-theme-accent-text:#f09377!important;--codex-theme-accent-background-subtle:#51262e!important;--codex-theme-accent-background-pressed:#602b33!important;--app-color-text-accent:#f09377!important;--app-color-icon-accent:#e7806a!important;--app-color-background-accent:#51262e!important;--app-color-background-accent-hover:#602b33!important;
+ --color-background-primary-solid:#e0473d!important;--color-background-primary-solid-hover:#f26550!important;--color-background-primary-solid-active:#bc3434!important;--app-color-background-button-primary:#e0473d!important;--app-color-background-button-primary-hover:#f26550!important;--color-background-composer-primary:#e0473d!important;--color-text-composer-primary:#fff0e4!important;--color-text-primary-solid:#fff0e4!important;
+ --color-background-text-selection:#9b323877!important;--color-text-info:#f09377!important;--color-text-connected:#d3ae50!important;--color-text-composer-reference:#f09377!important;
+ --color-text-success:#8dbda2!important;--app-color-text-success:#8dbda2!important;--color-text-danger:#ef887b!important;--app-color-text-error:#ef887b!important;--color-text-warning:#e4bb69!important;--app-color-text-warning:#e4bb69!important;
+}
+html[data-eva-theme=r7] body{background:#141213;color:#eee6e0}
+html[data-eva-theme=r7] [data-app-action-sidebar-scroll]{background:#23181b!important;box-shadow:inset -1px 0 #593138}
+html[data-eva-theme=r7] [data-app-action-sidebar-project-row]:hover{background:#392127!important;color:#e7806a}
+html[data-eva-theme=r7] [data-app-action-sidebar-thread-row]{position:relative!important;isolation:isolate;background:transparent!important;border-radius:0!important}
+html[data-eva-theme=r7] [data-eva-conversation]{background-color:#141213!important}
+html[data-eva-theme=r7] [data-app-action-timeline-scroll]{background-color:#141213!important;background-image:linear-gradient(180deg,#1412133d,transparent 17%),linear-gradient(90deg,#14121352 0%,#14121352 40%,transparent 82%),url('__EVA_ART__')!important;background-position:0 0,0 0,var(--eva-art-position,48% bottom)!important;background-size:100% 100%,100% 100%,var(--eva-art-size,auto 89.53%)!important;background-repeat:no-repeat!important}
+html[data-eva-theme=r7] [class*=floatingSurface],html[data-eva-theme=r7] [class*=composerRadius],html[data-eva-theme=r7] [class*=ComposerLayoutRoot]{background-color:#2c2023!important}
+html[data-eva-theme=r7] [role=dialog],html[data-eva-theme=r7] [role=menu],html[data-eva-theme=r7] [role=listbox],html[data-eva-theme=r7] pre{background-color:#2c2023!important}
+html[data-eva-theme=r7] :focus-visible{outline-color:#d3ae50!important}
+html[data-eva-theme=r7] :is(input,textarea,[contenteditable=true]),html[data-eva-theme=r7] [contenteditable=true] *{caret-color:#f1c96e!important}
+html[data-eva-theme=r7] ::selection{background:#9b323877;color:#fff2e9}
+html[data-eva-theme=r7] ::-webkit-scrollbar{width:12px;height:12px}
+html[data-eva-theme=r7] ::-webkit-scrollbar-track{background:transparent}
+html[data-eva-theme=r7] ::-webkit-scrollbar-thumb{background-color:#704047;border:3px solid transparent;border-radius:8px;background-clip:padding-box}
+html[data-eva-theme=r7] ::-webkit-scrollbar-thumb:hover{background-color:#b8524b;border-width:2px}
+html[data-eva-theme=r7] ::-webkit-scrollbar-thumb:active{background-color:#ed755f;border-width:2px}
+html[data-eva-theme=r7] ::-webkit-scrollbar-corner{background:transparent}
+
+/* The native default-page header is transparent; only chat has the red titlebar. */
+html[data-eva-theme=r7] [class*=ApplicationMenuTopBar]{background:#391b20!important}
+html[data-eva-theme=r7] [data-app-shell-frame][data-app-shell-application-menu-bar=true]{--app-shell-titlebar-height:0px!important;--app-shell-titlebar-top-inset:0px!important}
+html[data-eva-theme=r7] [data-app-shell-titlebar]{background:transparent!important;box-shadow:none;--color-text:#eee6e0!important}
+html[data-eva-theme=r7] [data-app-shell-titlebar][data-app-shell-header-layout=thread-edge-scroll]{background:#79272e!important;box-shadow:inset 0 -1px #e0473d}
+html[data-eva-theme=r7] [data-app-shell-titlebar]::after{content:"";position:absolute;inset:auto 0 0 0;height:5px;background:repeating-linear-gradient(45deg,#201a1a 0 10px,#d3ae50 10px 15px,#201a1a 15px 22px);pointer-events:none;z-index:30}
+html[data-eva-theme=r7] [data-app-shell-titlebar]:not([data-app-shell-header-layout=thread-edge-scroll])::after{top:0;bottom:auto}
+html[data-eva-theme=r7] [data-app-shell-main-titlebar]{background:transparent!important}
+html[data-eva-theme=r7] [data-app-shell-header-layout=thread-edge-scroll] [data-app-shell-main-titlebar]{background:#79272e!important}
+html[data-eva-theme=r7] [data-app-shell-header-toolbar] button{color:#eee6e0!important}
+@font-face{font-family:EVAHeading;src:url('__EVA_HEADER_FONT__') format('truetype');font-style:normal;font-weight:900;font-display:swap}
+html[data-eva-theme=r7] [data-eva-header-mark]{display:block;flex:none;margin-inline-end:26px;pointer-events:none;user-select:none;white-space:nowrap;color:#edca87;font:900 29px/32px EVAHeading,'Noto Serif SC',SimSun,serif;letter-spacing:-1.3px}
+html[data-eva-theme=r7] [data-app-shell-titlebar][data-app-shell-header-layout=thread-edge-scroll]{--app-shell-header-height:calc(var(--app-shell-titlebar-height,var(--height-toolbar)) - 5px)!important;container-type:inline-size;container-name:eva-chat-header}
+html[data-eva-theme=r7] [data-app-shell-header-layout=thread-edge-scroll] [data-app-shell-titlebar-slot=content]{--app-shell-header-height:calc(var(--app-shell-titlebar-height,var(--height-toolbar)) - 5px)!important;height:var(--app-shell-header-height)!important}
+html[data-eva-theme=r7] [data-app-shell-titlebar]:not([data-app-shell-header-layout=thread-edge-scroll]) [data-eva-header-mark]{display:none}
+@container eva-chat-header (width < 680px){html[data-eva-theme=r7] [data-eva-header-mark]{display:none}}
+html[data-eva-theme=r7] [data-app-navigation-rail]{background:#421c22!important}
+html[data-eva-theme=r7] :is([data-app-navigation-rail],.sidebar-navigation){--color-background-info-solid:#d3ae50!important}
+html[data-eva-theme=r7] [data-app-navigation-rail] [data-selected]{background:#9b3238!important;color:#fff0e4!important}
+html[data-eva-theme=r7] .sidebar-navigation{background:#23181b!important;--color-text:#eee6e0!important}
+html[data-eva-theme=r7] .sidebar-navigation button.sidebar-item{color:#eee6e0!important;--color-text:#eee6e0!important}
+html[data-eva-theme=r7] .sidebar-navigation [data-color=primary],html[data-eva-theme=r7] [data-app-action-sidebar-thread-row] [data-thread-title-trigger],html[data-eva-theme=r7] [data-app-action-sidebar-project-row]{color:#e8d9d2!important;--color-text:#e8d9d2!important}
+html[data-eva-theme=r7] [data-app-action-sidebar-thread-row][data-app-action-sidebar-thread-active=true] [data-thread-title-trigger]{color:#fff2e9!important;--color-text:#fff2e9!important}
+html[data-eva-theme=r7] [data-app-action-sidebar-project-row]:hover{color:#e7806a!important}
+html[data-eva-theme=r7] [data-app-action-sidebar-project-row]:not([data-eva-current-project]):hover{box-shadow:inset 0 0 0 1px #82404a}
+html[data-eva-theme=r7] [data-eva-current-project]{background:#51262e!important;color:#edbd78!important;--color-text:#edbd78!important;box-shadow:inset 0 0 0 1px #874149}
+html[data-eva-theme=r7] [data-eva-current-project]:hover{background:#602b33!important;color:#edbd78!important}
+html[data-eva-theme=r7] [class*=floatingSurface],html[data-eva-theme=r7] [class*=composerRadius],html[data-eva-theme=r7] [class*=ComposerLayoutRoot]{box-shadow:inset 0 0 0 1px #9e3b40!important}
+html[data-eva-theme=r7] [class*=ComposerLayoutRoot]:focus-within{box-shadow:inset 0 0 0 1px #dc6b5c,0 0 0 2px #d3ae5040!important}
+html[data-eva-theme=r7] code:not(pre code){color:#e5b991!important;background-color:#2c2023!important}
+
+/* Component tokens preserve native controls, sizing, focus and state semantics. */
+html[data-eva-theme=r7]{
+ --menu-background-color:#2c2023!important;--menu-item-background-color:#54282e!important;--menu-separator-background-color:#59353c!important;--menu-box-shadow:0 0 0 1px #81414a,0 12px 24px #0005!important;
+ --tooltip-background-color:#40262c!important;--tooltip-border-color:#9e4d49!important;--tooltip-text-color:#f2d9cb!important;--tooltip-shortcut-background-color:#2d2225!important;
+ --app-color-icon-success:#8dc49c!important;--app-color-icon-error:#ff9c8f!important;--color-text-success:#8dc49c!important;--app-color-text-success:#8dc49c!important;--color-text-danger:#ff9c8f!important;--app-color-text-error:#ff9c8f!important;--color-text-warning:#e4bd72!important;--app-color-text-warning:#e4bd72!important;
+ --color-text-danger-soft:#ff9c8f!important;--color-text-danger-ghost:#ff9c8f!important;--color-text-danger-ghost-hover:#ffb1a0!important;--color-background-danger-soft:#3f2228!important;--color-background-danger-soft-hover:#54282e!important;--color-background-danger-ghost-hover:#54282e!important;
+ --color-background-success-soft:#202923!important;--color-background-success-soft-hover:#29382c!important;--color-text-success-soft:#bed1b7!important;--color-border-success-outline:#627058!important;
+ --color-codex-diff-added:#22392c!important;--color-codex-diff-deleted:#492429!important;--diffs-addition-color-override:#abd3b3!important;--diffs-deletion-color-override:#f2b2a5!important;
+ --color-token-text-code-block-background:#171416!important;--color-codex-editor-inline-code-background:#2c2023!important;--color-codex-editor-inline-code-foreground:#e5b991!important;
+ --codeblock-background-color:#171416!important;--color-background-execution-output:#1d181a!important;--color-text-execution-output:#cdb8ab!important;--color-text-execution-output-error:#ff9c8f!important;--color-text-execution-output-label:#c8ada3!important;
+ --color-background-execution-traceback:#3f2228!important;--color-text-execution-traceback:#ffb1a0!important;--color-background-callout-surface:#2c2023!important;--app-color-background-status-success:#202923!important;
+ --color-token-diff-editor-inserted-line-background:#22392c!important;--color-token-diff-editor-removed-line-background:#492429!important;--color-token-diff-editor-inserted-text-background:#365940!important;--color-token-diff-editor-removed-text-background:#6b343b!important;
+ --color-background-danger-soft-alpha:#3f2228!important;--color-text-success-ghost:#8dc49c!important;--color-text-success-outline:#bed1b7!important;
+}
+html[data-eva-theme=r7] :focus-visible{outline-color:#edca87!important;--tw-ring-color:#edca87!important}
+html[data-eva-theme=r7] :is([data-app-navigation-rail],[data-app-shell-titlebar],[class*=ComposerLayoutRoot]) button:not(:disabled):not([aria-disabled=true]):not(.bg-composer-primary):hover{background-color:#4b272d!important;color:#ffe6d7!important;box-shadow:inset 0 0 0 1px #a64d47}
+html[data-eva-theme=r7] :is([role=menuitem],[role=menuitemradio],[role=menuitemcheckbox])[data-disabled]{color:#846e69!important}
+html[data-eva-theme=r7] :is([role=menuitemradio],[role=menuitemcheckbox])[aria-checked=true],html[data-eva-theme=r7] [role=menuitemradio][data-model-selected=true]{background-color:#612c33!important;color:#ffe7cd!important}
+html[data-eva-theme=r7] :is([cmdk-input],[role=searchbox]){background-color:#161315!important;border-color:#af5750!important}
+html[data-eva-theme=r7] :is([cmdk-item][data-selected=true],[role=option][aria-selected=true]){background-color:#632a32!important;box-shadow:inset 2px 0 #e0473d;color:#ffe7cd!important}
+html[data-eva-theme=r7] .composer-attachment-surface{background-color:#302328!important;border-color:#765057!important;box-shadow:inset 0 0 0 1px #765057}
+html[data-eva-theme=r7] .composer-attachment-surface svg{color:#e2a377}
+html[data-eva-theme=r7] .bg-execution-output{border-color:#79504b!important}
+html[data-eva-theme=r7] [class~="@container/approval-card"]{background-color:#2c2023!important;border-color:#ab7751!important;box-shadow:inset 0 3px #d3ae50}
+html[data-eva-theme=r7] .bg-composer-primary:not(:disabled):not([aria-disabled=true]):hover{background-color:#f26550!important}
+html[data-eva-theme=r7] .bg-composer-primary:is(:disabled,[aria-disabled=true]){background-color:#4b383b!important;color:#b59e95!important;opacity:1}
+html[data-eva-theme=r7] :is([class*=CodeBlock-],[class*=CodeBlockPlaceholder-]){background:#171416!important;border-color:#614049!important;color:#d8c4b8}
+html[data-eva-theme=r7] :is([class*=CodeBlock-],[class*=CodeBlockPlaceholder-])>header{background:#332026!important;border-color:#614049!important}
+html[data-eva-theme=r7] pre{background-color:#171416!important;color:#d8c4b8}
+html[data-eva-theme=r7] [class*=ExternalMarkdownLink-]{color:#f0ab93!important;text-decoration:underline;text-underline-offset:3px}
+html[data-eva-theme=r7] [data-sonner-toast][data-type=success]{background:#202923!important;color:#bed1b7!important;border-color:#627058!important}
+html[data-eva-theme=r7] [data-sonner-toast][data-type=error]{background:#3f2228!important;color:#ffb1a0!important;border-color:#ad6359!important}
+html[data-eva-theme=r7] [data-sonner-toaster]{--normal-bg:#2c2023;--normal-text:#eee6e0;--normal-border:#81414a;--success-bg:#202923;--success-text:#bed1b7;--success-border:#627058;--error-bg:#3f2228;--error-text:#ffb1a0;--error-border:#ad6359}
+html[data-eva-theme=r7] [data-app-shell-tab-panel-controller=right]{background:#281d21!important;--app-shell-panel-background:#281d21;--color-border:#845057!important}
+html[data-eva-theme=r7] [data-app-shell-tab-panel-controller=right] [role=tab][aria-selected=true]{color:#ffe0ca!important;box-shadow:inset 0 -2px #e0473d}
+html[data-eva-theme=r7] [data-app-shell-header-layout=thread-edge-scroll] [data-app-shell-titlebar-slot=content]{background:#332026!important}
