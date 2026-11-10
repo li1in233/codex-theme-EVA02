@@ -9,4 +9,5 @@ Full license: native/runtime/fonts/OFL.txt.
 
 EVA/EVANGELION and Codex/OpenAI names identify inspiration and compatibility.
 This is an independent fan project with no official affiliation or endorsement.
-Asset provenance and exclusions: docs/ASSETS.md.
+Prebuilt Release packages contain third-party media not covered by MIT.
+Asset provenance, distribution scope and rights contact: docs/ASSETS.md.
