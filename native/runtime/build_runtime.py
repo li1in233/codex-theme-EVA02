@@ -134,5 +134,3 @@ manifest['launcher']={'sourceSha256':hashlib.sha256((SOURCE/'Launcher.cs').read_
 (OUT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf8')
 
 print(json.dumps({k:v['bytes'] for k,v in manifest['files'].items()}))
-
-

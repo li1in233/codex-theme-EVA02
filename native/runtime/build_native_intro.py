@@ -84,4 +84,3 @@ def high_resolution_assets(assets):
                     if process.poll() is None:process.kill();process.wait()
         assets['videos'][name]='data:video/mp4;base64,'+base64.b64encode(target.read_bytes()).decode()
     return assets
-
